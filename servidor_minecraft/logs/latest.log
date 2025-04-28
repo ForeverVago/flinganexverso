@@ -1,0 +1,937 @@
+[28Apr2025 00:20:21.581] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[28Apr2025 00:20:21.585] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1026-azure
+[28Apr2025 00:20:25.608] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/flinganexverso/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[28Apr2025 00:20:26.199] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/flinganexverso/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[28Apr2025 00:20:26.201] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/flinganexverso/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[28Apr2025 00:20:26.202] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/flinganexverso/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[28Apr2025 00:20:26.203] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/flinganexverso/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[28Apr2025 00:20:26.507] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[28Apr2025 00:20:29.067] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[28Apr2025 00:20:29.091] [main/ERROR] [mixin/]: Mixin config justhammers.mixins.json does not specify "minVersion" property
+[28Apr2025 00:20:29.130] [main/ERROR] [mixin/]: Mixin config arclight.mixins.json does not specify "minVersion" property
+[28Apr2025 00:20:29.140] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[28Apr2025 00:20:29.229] [main/WARN] [mixin/]: Reference map 'simplyswords-common-refmap.json' for simplyswords-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Apr2025 00:20:29.232] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Apr2025 00:20:29.234] [main/WARN] [mixin/]: Reference map 'ambientsounds.mixins.refmap.json' for ambientsounds.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Apr2025 00:20:29.251] [main/WARN] [mixin/]: Reference map 'justhammers-forge-forge-refmap.json' for justhammers.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Apr2025 00:20:29.262] [main/WARN] [mixin/]: Reference map 'arclight.mixins.refmap.json' for arclight.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Apr2025 00:20:37.620] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[28Apr2025 00:20:39.035] [main/WARN] [mixin/]: @ModifyVariable(@At("INVOKE")) Shift.BY=4 on infernal-expansion.mixins.json:common.MixinMultiNoiseBiomeSourcePreset::localvar$zbg000$IE_addNetherBiomes exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[28Apr2025 00:20:40.249] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Scanning for Terra JAR...
+[28Apr2025 00:20:40.259] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/voicechat-forge-1.19.2-2.5.30.jar
+[28Apr2025 00:20:40.277] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/DungeonsArise-1.19.2-2.1.56-beta.jar
+[28Apr2025 00:20:40.284] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/alexsmobs-1.21.1.jar
+[28Apr2025 00:20:40.298] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/Crystalcraft Unlimited 1.19.2 fortune readded.jar
+[28Apr2025 00:20:40.333] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/advancednetherite-1.14.7-1.19.2.jar
+[28Apr2025 00:20:40.334] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/cloth-config-8.3.134-forge.jar
+[28Apr2025 00:20:40.338] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/appleskin-forge-mc1.19-2.4.2.jar
+[28Apr2025 00:20:40.340] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/BasicNetherOres-1.19.2-8.2.1.jar
+[28Apr2025 00:20:40.346] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/simplyswords-forge-1.47.0-1.19.2.jar
+[28Apr2025 00:20:40.357] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/jei-1.19.2-forge-11.8.1.1034.jar
+[28Apr2025 00:20:40.359] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/easy-villagers-forge-1.19.2-1.1.23.jar
+[28Apr2025 00:20:40.360] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/dungeons-and-taverns-2.0.2 forge.jar
+[28Apr2025 00:20:40.362] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/justhammers-forge-1.0.0+mc1.19.2.jar
+[28Apr2025 00:20:40.363] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/ironchest-1.19.2-14.2.7.jar
+[28Apr2025 00:20:40.363] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/EndlessBiomes 1.4s - 1.19.2 (Server-friendly).jar
+[28Apr2025 00:20:40.367] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/MouseTweaks-forge-mc1.19-2.23.jar
+[28Apr2025 00:20:40.367] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/supermartijn642configlib-1.1.8-forge-mc1.19.jar
+[28Apr2025 00:20:40.369] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/Pati_structures_1.3.0_forge_1.19.jar
+[28Apr2025 00:20:40.370] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/supermartijn642corelib-1.1.18-forge-mc1.19.2.jar
+[28Apr2025 00:20:40.373] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/arclight-2.0.10.jar
+[28Apr2025 00:20:40.375] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.28_mc1.19.2.jar
+[28Apr2025 00:20:40.378] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/geckolib-forge-1.19-3.1.40.jar
+[28Apr2025 00:20:40.381] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/ExplorersCompass-1.19.2-1.3.0-forge.jar
+[28Apr2025 00:20:40.382] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/Terralith_1.19.3_v2.3.12.jar
+[28Apr2025 00:20:40.387] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/repurposed_structures_forge-6.3.29+1.19.2.jar
+[28Apr2025 00:20:40.397] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/packedup-1.1.0-forge-mc1.19.2.jar
+[28Apr2025 00:20:40.398] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/NaturesCompass-1.19.2-1.10.0-forge.jar
+[28Apr2025 00:20:40.402] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/Incendium_1.19.3_v5.1.6.jar
+[28Apr2025 00:20:40.407] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/SkyVillages-1.0.3-1.19.2-1.20.x-forge-release.jar
+[28Apr2025 00:20:40.408] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/born_in_chaos_[Forge]1.19.2_1.10.1.jar
+[28Apr2025 00:20:40.413] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/[1.19.2]MidnightMadness-1.9.jar
+[28Apr2025 00:20:40.418] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/minions_remastered-1.2-BETA.jar
+[28Apr2025 00:20:40.419] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/Ender_Dragon_Loot1.19.2-1.0.6.jar
+[28Apr2025 00:20:40.419] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/infernal-expansion-1.19.2-2.5.3.jar
+[28Apr2025 00:20:40.423] [modloading-worker-0/INFO] [com.dfsek.terra.forge.AwfulForgeHacks/]: Found mod: /workspaces/flinganexverso/servidor_minecraft/mods/Terra-forge-6.2.1-BETA+358e09d05.jar
+[28Apr2025 00:20:40.465] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Sound Events Registered!
+[28Apr2025 00:20:40.639] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Blocks Registered!
+[28Apr2025 00:20:40.640] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Items Registered!
+[28Apr2025 00:20:40.644] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Effects Registered!
+[28Apr2025 00:20:40.650] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Potions Registered!
+[28Apr2025 00:20:40.662] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Entity Types Registered!
+[28Apr2025 00:20:40.667] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Painting Types Registered!
+[28Apr2025 00:20:40.669] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Tile Entity Types Registered!
+[28Apr2025 00:20:40.670] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Biomes Registered!
+[28Apr2025 00:20:40.682] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Loot Modifiers Registered!
+[28Apr2025 00:20:40.686] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Biome Modifiers Registered!
+[28Apr2025 00:20:40.690] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Entity Classifications Registered!
+[28Apr2025 00:20:41.387] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[28Apr2025 00:20:42.507] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[28Apr2025 00:20:43.047] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[28Apr2025 00:20:43.049] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[28Apr2025 00:20:43.872] [modloading-worker-0/WARN] [com.dfsek.terra.forge.AwfulForgeHacks/]: Failed to load class cloud.commandframework.annotations.injection.GuiceInjectionService: java.lang.NoClassDefFoundError: com/google/inject/ConfigurationException
+[28Apr2025 00:20:44.100] [modloading-worker-0/INFO] [com.dfsek.terra.AbstractPlatform/]: Initializing Terra...
+[28Apr2025 00:20:44.101] [modloading-worker-0/INFO] [com.dfsek.terra.AbstractPlatform/]: Loading config.yml
+[28Apr2025 00:20:44.101] [modloading-worker-0/INFO] [com.dfsek.terra.config.PluginConfigImpl/]: Loading config values from config.yml
+[28Apr2025 00:20:44.349] [modloading-worker-0/INFO] [com.dfsek.terra.AbstractPlatform/]: Loading 76 Terra addons:
+        - biome-provider-extrusion@1.0.0-BETA+358e09d05
+        - biome-provider-image@1.0.0-BETA+358e09d05
+        - biome-provider-pipeline@1.0.1-BETA+358e09d05
+        - biome-provider-pipeline-v2@1.0.0-BETA+358e09d05
+        - biome-provider-single@1.0.0-BETA+358e09d05
+        - biome-query-api@1.0.0-BETA+358e09d05
+        - chunk-generator-noise-3d@1.1.0-BETA+358e09d05
+        - command-addons@1.0.0-BETA+358e09d05
+        - command-packs@1.0.0-BETA+358e09d05
+        - command-profiler@1.0.0-BETA+358e09d05
+        - command-structures@1.0.0-BETA+358e09d05
+        - config-biome@1.0.0-BETA+358e09d05
+        - config-distributors@1.0.0-BETA+358e09d05
+        - config-feature@1.0.0-BETA+358e09d05
+        - config-flora@1.0.0-BETA+358e09d05
+        - config-locators@1.1.0-BETA+358e09d05
+        - config-noise-function@1.0.0-BETA+358e09d05
+        - config-ore@1.0.0-BETA+358e09d05
+        - config-palette@1.0.0-BETA+358e09d05
+        - config-structure@1.0.0-BETA+358e09d05
+        - forge:advancednetherite@1.14.7
+        - forge:alexsmobs@1.21.1
+        - forge:ambientsounds@5.3.9
+        - forge:appleskin@0.0.0
+        - forge:architectury@6.6.92
+        - forge:arclight@2.0.10
+        - forge:bno@8.2.1
+        - forge:born_in_chaos_v1@1.0.0
+        - forge:citadel@2.1.4
+        - forge:cloth_config@8.3.134
+        - forge:creativecore@2.11.28
+        - forge:crystalcraft_unlimited_java@1.0.0
+        - forge:ctov@0.0.0
+        - forge:dungeons_andtaverns_mr@2.0.2
+        - forge:dungeons_arise@2.1.56
+        - forge:easy_villagers@1.19.2
+        - forge:ender_dragon_loot@1.0.0
+        - forge:endlessbiomes@1.0.0
+        - forge:explorerscompass@1.19.2
+        - forge:forge@43.4.2
+        - forge:geckolib3@3.1.40
+        - forge:incendium@5.1.6
+        - forge:infernalexp@2.5.1
+        - forge:ironchest@1.19.2
+        - forge:jade@8.9.2
+        - forge:jei@0.0.0
+        - forge:justhammers@0.0.0
+        - forge:midnight_madness@1.9.0
+        - forge:minions_remastered@1.2.0
+        - forge:mixinextras@0.2.0
+        - forge:mousetweaks@2.23.0
+        - forge:naturescompass@1.19.2
+        - forge:packedup@1.1.0
+        - forge:pati_structures2@1.0.0
+        - forge:repurposed_structures@0.0.0
+        - forge:simplyswords@1.47.0
+        - forge:skyvillages@1.0.3
+        - forge:spartanshields@3.0.1
+        - forge:supermartijn642configlib@1.1.8
+        - forge:supermartijn642corelib@1.1.18
+        - forge:terralith@2.3.12
+        - forge:unusualend@1.4.3
+        - forge:voicechat@1.19.2
+        - generation-stage-feature@1.1.0-BETA+358e09d05
+        - generation-stage-structure@1.0.0-BETA+358e09d05
+        - language-yaml@1.0.0-BETA+358e09d05
+        - minecraft@1.19.2
+        - palette-block-shortcut@1.0.0-BETA+358e09d05
+        - structure-block-shortcut@1.0.0-BETA+358e09d05
+        - structure-function-check-noise-3d@1.0.0-BETA+358e09d05
+        - structure-mutator@0.1.0-BETA+358e09d05
+        - structure-sponge-loader@1.0.0-BETA+358e09d05
+        - structure-terrascript-loader@1.1.0-BETA+358e09d05
+        - terra@1.0.0
+        - terra-forge@1.0.0
+        - terrascript-function-sampler@1.0.0-BETA+358e09d05
+[28Apr2025 00:20:44.380] [modloading-worker-0/WARN] [com.dfsek.terra.addons.biome.pipeline.BiomePipelineAddon/]: The biome-provider-pipeline addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-pipeline-v2 addon for future pack development instead.
+[28Apr2025 00:20:44.384] [modloading-worker-0/INFO] [com.dfsek.terra.AbstractPlatform/]: Terra addons successfully loaded.
+[28Apr2025 00:20:44.384] [modloading-worker-0/INFO] [com.dfsek.terra.AbstractPlatform/]: Finished initialization.
+[28Apr2025 00:20:46.124] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Loading config packs...
+[28Apr2025 00:20:46.124] [main/INFO] [com.dfsek.terra.registry.master.ConfigRegistry/]: Loading ZIP archive: default.zip
+[28Apr2025 00:20:47.666] [main/INFO] [com.dfsek.terra.config.pack.ConfigPackImpl/]: Loading config pack "OVERWORLD:OVERWORLD"
+[28Apr2025 00:20:50.077] [main/INFO] [com.dfsek.terra.config.pack.ConfigPackImpl/]: Loaded config pack "OVERWORLD:OVERWORLD" v1.3.0 by Astrash, Sancires, Aureus in 3431.822956ms.
+[28Apr2025 00:20:50.136] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Loaded packs.
+[28Apr2025 00:20:50.137] [main/INFO] [com.dfsek.terra.forge.util.BiomeUtil/]: Registering biomes...
+[28Apr2025 00:20:50.148] [main/INFO] [com.dfsek.terra.mod.util.MinecraftUtil/]: Injecting flora into Terra biomes...
+[28Apr2025 00:20:50.170] [main/INFO] [com.dfsek.terra.forge.util.BiomeUtil/]: Terra biomes registered.
+[28Apr2025 00:20:50.192] [main/INFO] [com.dfsek.terra.mod.generation.MinecraftChunkGeneratorWrapper/]: Loading world with config pack OVERWORLD
+[28Apr2025 00:20:50.193] [main/INFO] [com.dfsek.terra.mod.util.PresetUtil/]: Created world type "terra:overworld/overworld"
+[28Apr2025 00:20:51.426] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class org.infernalstudios.infernalexp.entities.ShroomloinEntity from class org.infernalstudios.infernalexp.entities.WarpbeetleEntity
+[28Apr2025 00:20:51.529] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[28Apr2025 00:20:51.531] [Thread-0/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[28Apr2025 00:20:51.534] [Thread-0/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[28Apr2025 00:20:51.667] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[28Apr2025 00:20:51.708] [modloading-worker-0/INFO] [bno/]: Setup Method Registered (PreInit)
+[28Apr2025 00:20:51.759] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[28Apr2025 00:20:51.944] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[28Apr2025 00:20:51.957] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[28Apr2025 00:20:51.960] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[28Apr2025 00:20:51.960] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[28Apr2025 00:20:52.233] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [infernalexp] Starting version check at https://infernalstudios.org/api/mods/infernalexpansion/forge
+[28Apr2025 00:20:52.515] [modloading-worker-0/INFO] [com.choicetheorem.ctov.ctov/]: Got IMC []
+[28Apr2025 00:20:52.522] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[28Apr2025 00:20:52.559] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [infernalexp] Found status: BETA Current: 2.5.1 Target: null
+[28Apr2025 00:20:52.562] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[28Apr2025 00:20:52.566] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[28Apr2025 00:20:52.576] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[28Apr2025 00:20:52.579] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
+[28Apr2025 00:20:53.073] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: AHEAD Current: 1.19.2-1.1.23 Target: null
+[28Apr2025 00:20:53.076] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Starting version check at https://raw.githubusercontent.com/Autovw/ModUpdates/master/advancednetherite/update.json
+[28Apr2025 00:20:53.118] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Found status: BETA Current: 1.14.7 Target: 1.14.7
+[28Apr2025 00:20:53.118] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_andtaverns_mr] Starting version check at https://api.modrinth.comauth/init?url=https://modrinth.com/datapack/dungeons-and-taverns/version/2.0.2/updates/tpehi7ww/forge_updates.json
+[28Apr2025 00:20:53.264] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.ConnectException: null
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:574) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.19.2-43.4.2.jar%23184!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.19.2-43.4.2.jar%23184!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.4.2.jar%23184!/:?]
+Caused by: java.net.ConnectException
+	at jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1083) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198) ~[java.net.http:?]
+	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:443) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:131) ~[java.net.http:?]
+	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:93) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:349) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:542) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:386) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:378) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
+	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:294) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:659) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:553) ~[java.net.http:?]
+	... 5 more
+Caused by: java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:149) ~[?:?]
+	at sun.nio.ch.Net.checkAddress(Net.java:157) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:816) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:839) ~[?:?]
+	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183) ~[java.net.http:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:569) ~[?:?]
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185) ~[java.net.http:?]
+	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:443) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:131) ~[java.net.http:?]
+	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:93) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:349) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:542) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:386) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:378) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
+	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:294) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:659) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:553) ~[java.net.http:?]
+	... 5 more
+[28Apr2025 00:20:53.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[28Apr2025 00:20:53.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.19.2-2.5.30 Target: null
+[28Apr2025 00:20:53.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[28Apr2025 00:20:53.519] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
+[28Apr2025 00:20:53.520] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
+[28Apr2025 00:20:53.755] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: AHEAD Current: 3.2.6c Target: null
+[28Apr2025 00:20:54.536] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[28Apr2025 00:20:55.940] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/flinganexverso/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[28Apr2025 00:20:55.940] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/flinganexverso/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[28Apr2025 00:20:57.625] [main/INFO] [com.dfsek.terra.mod.generation.MinecraftChunkGeneratorWrapper/]: Loading world with config pack OVERWORLD
+[28Apr2025 00:21:02.771] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[28Apr2025 00:21:02.925] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:cherry_grove (from Pati_structures_1.3.0_forge_1.19.jar)] as it is missing following references: minecraft:cherry_grove (from Pati_structures_1.3.0_forge_1.19.jar)
+[28Apr2025 00:21:02.931] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:cherry_grove (from Pati_structures_1.3.0_forge_1.19.jar)] as it is missing following references: minecraft:cherry_grove (from Pati_structures_1.3.0_forge_1.19.jar)
+[28Apr2025 00:21:02.940] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:cherry_grove (from Pati_structures_1.3.0_forge_1.19.jar)] as it is missing following references: minecraft:cherry_grove (from Pati_structures_1.3.0_forge_1.19.jar)
+[28Apr2025 00:21:02.946] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:cherry_grove (from Pati_structures_1.3.0_forge_1.19.jar)] as it is missing following references: minecraft:cherry_grove (from Pati_structures_1.3.0_forge_1.19.jar)
+[28Apr2025 00:21:02.954] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:cherry_grove (from Pati_structures_1.3.0_forge_1.19.jar)] as it is missing following references: minecraft:cherry_grove (from Pati_structures_1.3.0_forge_1.19.jar)
+[28Apr2025 00:21:02.956] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:cherry_grove (from Pati_structures_1.3.0_forge_1.19.jar)] as it is missing following references: minecraft:cherry_grove (from Pati_structures_1.3.0_forge_1.19.jar)
+[28Apr2025 00:21:03.026] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/quadrillum/quadrillum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/quadrillum/quadrillum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.029] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/banglum/banglum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/halberd_scythe (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/banglum/banglum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/halberd_scythe (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.030] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/osmium/osmium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/osmium/osmium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.031] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/steel/steel_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/steel/steel_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.032] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/runite/runite_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/runite/runite_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.034] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/palladium/palladium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/palladium/palladium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.037] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [arclight:moonlight_jellyball (from arclight-2.0.10.jar)] as it is missing following references: arclight:moonlight_jellyball (from arclight-2.0.10.jar)
+[28Apr2025 00:21:03.042] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [arclight:moonlight_jellyball (from arclight-2.0.10.jar)] as it is missing following references: arclight:moonlight_jellyball (from arclight-2.0.10.jar)
+[28Apr2025 00:21:03.047] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/celestium/celestium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/celestium/celestium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.047] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/aquarium/aquarium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/aquarium/aquarium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.048] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [mythicmetals:mythicmetals_compat/carmot/carmot_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_katana (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_sai (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_spear (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: mythicmetals:mythicmetals_compat/carmot/carmot_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.048] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/durasteel/durasteel_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/durasteel/durasteel_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.049] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/copper/copper_longsword (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/copper/copper_longsword (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.049] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/prometheum/prometheum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/prometheum/prometheum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.050] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/star_platinum/star_platinum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/star_platinum/star_platinum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.051] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/stormyx/stormyx_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/stormyx/stormyx_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.052] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/adamantite/adamantite_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/adamantite/adamantite_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.053] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/mythril/mythril_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/mythril/mythril_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.062] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/kyber/kyber_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/kyber/kyber_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.065] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/prometheum/prometheum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/prometheum/prometheum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.068] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/metallurgium/metallurgium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/metallurgium/metallurgium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.074] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/bronze/bronze_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/bronze/bronze_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.077] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/orichalcum/orichalcum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/orichalcum/orichalcum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[28Apr2025 00:21:03.608] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file nova_structures:chests/water_supply from nova_structures:loot_tables/chests/water_supply.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 17 column 10 path $.pools[0].entries[1]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 17 column 10 path $.pools[0].entries[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1562) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:475) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:413) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:675) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:684) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:676) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:684) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	... 11 more
+[28Apr2025 00:21:04.309] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe miningmaster:forging/kinetic_tongue_whip as it's serializer returned null
+[28Apr2025 00:21:04.329] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[28Apr2025 00:21:04.550] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table simplyswords:grant_book_on_first_join
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:145) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:463) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:473) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.4.2-universal.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:38) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[28Apr2025 00:21:04.587] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table arclight:entities/jelly
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'arclight:moonlight_jellyball'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:145) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:463) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:473) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.4.2-universal.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:38) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[28Apr2025 00:21:05.006] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table arclight:entities/scorpion
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'arclight:scorpion_scale'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:145) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:463) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:473) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.4.2-universal.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:38) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[28Apr2025 00:21:05.146] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {midnight_madness:entities/imitator}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[28Apr2025 00:21:05.146] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {midnight_madness:entities/soul_weaver}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[28Apr2025 00:21:05.146] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {midnight_madness:entities/soulseeker}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[28Apr2025 00:21:05.146] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {midnight_madness:entities/soul_weaver}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[28Apr2025 00:21:05.146] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {midnight_madness:entities/dark_wolf}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[28Apr2025 00:21:05.146] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {midnight_madness:entities/underworld_horror}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[28Apr2025 00:21:05.226] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/spartanshields/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[28Apr2025 00:21:05.231] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement midnight_madness:demonic_delicacy: Non [a-z0-9/._-] character in path of location: midnight_madness:demonic_mango
+
+[28Apr2025 00:21:05.245] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/spartanshields/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[28Apr2025 00:21:05.328] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1756 advancements
+[28Apr2025 00:21:05.366] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: ati_structures:haunted_ruin, ati_structures:marble_chateau, ati_structures:nomadic_camp, ati_structures:old_home, ati_structures:quarry, ati_structures:rotting_temple_underground
+[28Apr2025 00:21:06.100] [main/INFO] [com.dfsek.terra.mod.util.TagUtil/]: Doing preset tag garbage....
+[28Apr2025 00:21:06.104] [main/INFO] [com.dfsek.terra.mod.util.TagUtil/]: Doing biome tag garbage....
+[28Apr2025 00:21:06.172] [main/INFO] [com.dfsek.terra.mod.util.MinecraftUtil/]: Injecting flora into Terra biomes...
+[28Apr2025 00:21:06.405] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[28Apr2025 00:21:06.406] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[28Apr2025 00:21:06.407] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[28Apr2025 00:21:06.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[28Apr2025 00:21:06.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[28Apr2025 00:21:06.668] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[28Apr2025 00:21:06.811] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[28Apr2025 00:21:06.811] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[28Apr2025 00:21:06.811] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[28Apr2025 00:21:06.812] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[28Apr2025 00:21:07.274] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[28Apr2025 00:21:07.665] [Server thread/INFO] [com.dfsek.terra.mod.util.SeedHack/]: Registered seed 2351876029627624706 to sampler -343964942
+[28Apr2025 00:21:07.842] [Server thread/INFO] [com.dfsek.terra.mod.util.SeedHack/]: Registered seed 2351876029627624706 to sampler 1810123593
+[28Apr2025 00:21:07.991] [Server thread/INFO] [com.dfsek.terra.mod.util.SeedHack/]: Registered seed 2351876029627624706 to sampler 1266502562
+[28Apr2025 00:21:08.014] [Server thread/INFO] [com.dfsek.terra.mod.util.SeedHack/]: Registered seed 2351876029627624706 to sampler -235701535
+[28Apr2025 00:21:08.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28Apr2025 00:21:24.163] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.164] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.164] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.165] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.166] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.166] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.167] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.167] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.168] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.169] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.169] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.170] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.171] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.171] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.172] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.173] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.174] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.175] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.175] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.176] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.177] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.178] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.178] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.179] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.179] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.182] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.183] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.184] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.185] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.187] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.188] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.189] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.190] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:24.592] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Apr2025 00:21:29.766] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[28Apr2025 00:21:29.767] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[28Apr2025 00:21:29.767] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[28Apr2025 00:21:29.768] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[28Apr2025 00:21:29.768] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[28Apr2025 00:21:29.768] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[28Apr2025 00:21:29.769] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[28Apr2025 00:21:29.769] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[28Apr2025 00:21:29.770] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[28Apr2025 00:21:29.771] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[28Apr2025 00:21:30.069] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[28Apr2025 00:21:30.571] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[28Apr2025 00:21:31.074] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[28Apr2025 00:21:31.645] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[28Apr2025 00:21:32.092] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[28Apr2025 00:21:32.568] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[28Apr2025 00:21:33.075] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[28Apr2025 00:21:33.662] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
+[28Apr2025 00:21:34.069] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[28Apr2025 00:21:35.848] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[28Apr2025 00:21:35.848] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[28Apr2025 00:21:35.849] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[28Apr2025 00:21:36.105] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[28Apr2025 00:21:37.029] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[28Apr2025 00:21:37.124] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[28Apr2025 00:21:37.371] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[28Apr2025 00:21:37.709] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[28Apr2025 00:21:38.103] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[28Apr2025 00:21:38.569] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[28Apr2025 00:21:39.082] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
+[28Apr2025 00:21:40.075] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[28Apr2025 00:21:40.075] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[28Apr2025 00:21:40.572] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[28Apr2025 00:21:41.077] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[28Apr2025 00:21:42.233] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[28Apr2025 00:21:42.233] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[28Apr2025 00:21:42.576] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
+[28Apr2025 00:21:43.222] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
+[28Apr2025 00:21:43.576] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[28Apr2025 00:21:44.086] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[28Apr2025 00:21:44.572] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[28Apr2025 00:21:45.074] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[28Apr2025 00:21:45.578] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[28Apr2025 00:21:46.076] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[28Apr2025 00:21:46.570] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
+[28Apr2025 00:21:47.377] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
+[28Apr2025 00:21:47.568] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
+[28Apr2025 00:21:48.130] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
+[28Apr2025 00:21:48.488] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 40420 ms
+[28Apr2025 00:21:48.489] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (41.662s)! For help, type "help"
+[28Apr2025 00:21:48.539] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[28Apr2025 00:21:48.541] [Server thread/INFO] [net.stardustlabs.incendium.Incendium/]: Thanks for choosing Incendium!
+[28Apr2025 00:21:48.541] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
+[28Apr2025 00:21:48.542] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[28Apr2025 00:21:48.565] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[28Apr2025 00:22:16.505] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6fc3c767
+[28Apr2025 00:22:16.533] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ForeverVago[/100.69.227.109:65380] logged in with entity id 285 at (32.98314907402672, 66.0, -174.73545709128598)
+[28Apr2025 00:22:16.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ForeverVago joined the game
+[28Apr2025 00:22:16.707] [Server thread/INFO] [Jade/]: Syncing config to ForeverVago (e902d1ba-9ad2-3171-9a2f-132316ea4a0a)
+[28Apr2025 00:22:16.975] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ForeverVago (18)
+[28Apr2025 00:22:16.978] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ForeverVago
+[28Apr2025 00:22:21.582] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player e902d1ba-9ad2-3171-9a2f-132316ea4a0a
+[28Apr2025 00:22:22.760] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player e902d1ba-9ad2-3171-9a2f-132316ea4a0a
+[28Apr2025 00:22:22.769] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ForeverVago (e902d1ba-9ad2-3171-9a2f-132316ea4a0a) successfully connected to voice chat
+[28Apr2025 00:22:25.719] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event:{distance:5.406628f,game_event:"minecraft:step",pos:[665.0635295983229d,-28.0d,-328.45051504385293d],source:[I;-1248956662,754208087,-1868723166,-1831500066]},event_delay:2,selector:{tick:-1L}}]; No key source in MapLike[{event:{distance:5.406628f,game_event:"minecraft:step",pos:[665.0635295983229d,-28.0d,-328.45051504385293d],source:[I;-1248956662,754208087,-1868723166,-1831500066]},event_delay:2,selector:{tick:-1L}}]
+[28Apr2025 00:22:25.720] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 00:22:25.720] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 00:22:25.720] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 00:22:59.316] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[28Apr2025 00:22:59.317] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[28Apr2025 00:22:59.318] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[28Apr2025 00:22:59.319] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[28Apr2025 00:22:59.807] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event:{distance:5.406628f,game_event:"minecraft:step",pos:[665.0635295983229d,-28.0d,-328.45051504385293d],source:[I;-1248956662,754208087,-1868723166,-1831500066]},event_delay:2,selector:{tick:-1L}}]; No key source in MapLike[{event:{distance:5.406628f,game_event:"minecraft:step",pos:[665.0635295983229d,-28.0d,-328.45051504385293d],source:[I;-1248956662,754208087,-1868723166,-1831500066]},event_delay:2,selector:{tick:-1L}}]
+[28Apr2025 00:22:59.808] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 00:22:59.808] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 00:22:59.809] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 00:23:20.413] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event:{distance:5.406628f,game_event:"minecraft:step",pos:[665.0635295983229d,-28.0d,-328.45051504385293d],source:[I;-1248956662,754208087,-1868723166,-1831500066]},event_delay:2,selector:{tick:-1L}}]; No key source in MapLike[{event:{distance:5.406628f,game_event:"minecraft:step",pos:[665.0635295983229d,-28.0d,-328.45051504385293d],source:[I;-1248956662,754208087,-1868723166,-1831500066]},event_delay:2,selector:{tick:-1L}}]
+[28Apr2025 00:23:20.414] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 00:23:20.414] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 00:23:20.415] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 00:23:23.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ForeverVago has made the advancement [Face the Fear]
+[28Apr2025 00:23:42.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ForeverVago was slain by Imitator
+[28Apr2025 00:23:45.924] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=198, y=48, z=187}
+[28Apr2025 00:24:55.276] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[28Apr2025 00:24:55.277] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[28Apr2025 00:24:55.277] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[28Apr2025 00:24:55.277] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[28Apr2025 00:25:16.579] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1, y=116, z=149} BlockPos{x=-1, y=114, z=149}
+[28Apr2025 00:25:42.883] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event:{distance:5.406628f,game_event:"minecraft:step",pos:[665.0635295983229d,-28.0d,-328.45051504385293d],source:[I;-1248956662,754208087,-1868723166,-1831500066]},event_delay:2,selector:{tick:-1L}}]; No key source in MapLike[{event:{distance:5.406628f,game_event:"minecraft:step",pos:[665.0635295983229d,-28.0d,-328.45051504385293d],source:[I;-1248956662,754208087,-1868723166,-1831500066]},event_delay:2,selector:{tick:-1L}}]
+[28Apr2025 00:25:42.883] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 00:25:42.884] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 00:25:42.884] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 00:25:47.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ForeverVago was slain by Dire Hound Leader
+[28Apr2025 00:26:01.621] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3, y=75, z=-7} BlockPos{x=5, y=76, z=-7}
+[28Apr2025 00:26:15.513] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ForeverVago lost connection: Disconnected
+[28Apr2025 00:26:15.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ForeverVago left the game
+[28Apr2025 00:26:15.516] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ForeverVago
