@@ -1,9 +1,21 @@
 {
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-28 00:25:50 +0000"
+      "log_spam_fixer": "2025-04-28 01:16:49 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2025-04-28 01:16:22 +0000"
+    },
+    "done": true
   },
   "incendium:technical/using/trailblazer": {
     "criteria": {
@@ -36,6 +48,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
+    },
+    "done": true
+  },
   "infernalexp:recipes/food/cooked_hogchop_campfire": {
     "criteria": {
       "has_hogchop": "2025-04-28 00:11:38 +0000"
@@ -50,7 +68,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-28 00:25:50 +0000"
+      "log_spam_fixer": "2025-04-28 01:16:49 +0000"
     },
     "done": false
   },
@@ -68,9 +86,15 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-28 00:25:50 +0000"
+      "log_spam_fixer": "2025-04-28 01:16:49 +0000"
     },
     "done": false
+  },
+  "spartanshields:recipes/spartanshields/wooden_tower_shield": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
+    },
+    "done": true
   },
   "infernalexp:recipes/redstone/smooth_dullstone_button": {
     "criteria": {
@@ -86,9 +110,33 @@
     },
     "done": false
   },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2025-04-28 01:16:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-04-28 01:16:00 +0000"
+    },
+    "done": true
+  },
   "infernalexp:recipes/food/cured_jerky": {
     "criteria": {
       "has_soul_salt_clump": "2025-04-28 00:11:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-04-28 01:16:22 +0000"
     },
     "done": true
   },
@@ -97,6 +145,18 @@
       "log_spam_fixer": "2025-04-28 00:11:40 +0000"
     },
     "done": false
+  },
+  "spartanshields:recipes/spartanshields/wooden_basic_shield": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2025-04-28 01:16:22 +0000"
+    },
+    "done": true
   },
   "infernalexp:recipes/food/blindsight_tounge_stew": {
     "criteria": {
@@ -120,6 +180,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-04-28 01:15:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2025-04-28 00:12:43 +0000"
@@ -128,9 +194,21 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-28 00:25:50 +0000"
+      "log_spam_fixer": "2025-04-28 01:16:49 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
+    },
+    "done": true
   },
   "incendium:technical/new_player": {
     "criteria": {
@@ -144,6 +222,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2025-04-28 01:16:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2025-04-28 00:12:43 +0000"
@@ -152,9 +236,15 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-28 00:25:50 +0000"
+      "log_spam_fixer": "2025-04-28 01:16:49 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
+    },
+    "done": true
   },
   "midnight_madness:face_the_fear": {
     "criteria": {
@@ -164,7 +254,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-28 00:25:50 +0000"
+      "log_spam_fixer": "2025-04-28 01:16:49 +0000"
     },
     "done": false
   },
@@ -177,6 +267,12 @@
   "infernalexp:recipes/combat/blindsight_tongue_whip": {
     "criteria": {
       "has_molten_gold_cluster": "2025-04-28 00:11:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
     },
     "done": true
   },
@@ -219,13 +315,25 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-28 00:25:50 +0000"
+      "log_spam_fixer": "2025-04-28 01:16:49 +0000"
     },
     "done": false
   },
   "infernalexp:recipes/food/cooked_hogchop_smelting": {
     "criteria": {
       "has_hogchop": "2025-04-28 00:11:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2025-04-28 01:16:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-04-28 01:16:00 +0000"
     },
     "done": true
   },
@@ -237,7 +345,7 @@
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-28 00:25:50 +0000"
+      "log_spam_fixer": "2025-04-28 01:16:49 +0000"
     },
     "done": false
   },
@@ -247,15 +355,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-04-28 01:14:34 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-04-28 00:25:50 +0000"
+      "log_spam_fixer": "2025-04-28 01:16:49 +0000"
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-04-28 01:14:10 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-28 00:25:50 +0000"
+      "log_spam_fixer": "2025-04-28 01:16:49 +0000"
     },
     "done": false
   },
@@ -265,9 +385,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2025-04-28 01:16:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-04-28 01:14:34 +0000"
+    },
+    "done": true
+  },
   "infernalexp:recipes/redstone/polished_basalt_pressure_plate": {
     "criteria": {
       "has_polished_basalt": "2025-04-28 00:11:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
     },
     "done": true
   },
@@ -285,7 +423,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-28 00:25:50 +0000"
+      "log_spam_fixer": "2025-04-28 01:16:49 +0000"
     },
     "done": false
   },
@@ -295,9 +433,39 @@
     },
     "done": true
   },
+  "advancednetherite:recipes/advancednetherite.tab/netherite_emerald_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:gems/emerald]": "2025-04-28 01:14:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-04-28 01:16:00 +0000"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/upgrades/wood_to_copper_chest_upgrade": {
+    "criteria": {
+      "has_item": "2025-04-28 01:16:15 +0000"
+    },
+    "done": true
+  },
   "midnight_madness:midnight_madness_advancement": {
     "criteria": {
       "midnight_madness_advancement": "2025-04-28 00:11:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-04-28 01:16:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
     },
     "done": true
   },
@@ -307,9 +475,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2025-04-28 01:16:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_stick": "2025-04-28 01:16:22 +0000"
+    },
+    "done": true
+  },
   "infernalexp:recipes/redstone/soul_slate_pressure_plate": {
     "criteria": {
       "has_soul_slate": "2025-04-28 00:11:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-04-28 01:14:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-04-28 01:16:15 +0000"
     },
     "done": true
   },
@@ -321,7 +525,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-28 00:25:50 +0000"
+      "log_spam_fixer": "2025-04-28 01:16:49 +0000"
     },
     "done": false
   },

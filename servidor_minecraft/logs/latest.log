@@ -1111,3 +1111,43 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [28Apr2025 01:09:33.841] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player e25965b8-27bc-35b1-af8a-09faf72d94fa
 [28Apr2025 01:09:34.840] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player e25965b8-27bc-35b1-af8a-09faf72d94fa
 [28Apr2025 01:09:34.841] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player zNextLevel (e25965b8-27bc-35b1-af8a-09faf72d94fa) successfully connected to voice chat
+[28Apr2025 01:11:33.371] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@24d3693d
+[28Apr2025 01:11:33.382] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ForeverVago[/100.69.227.109:52426] logged in with entity id 4156 at (25.24312520831787, 75.53584062504456, -39.401276060853526)
+[28Apr2025 01:11:33.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ForeverVago joined the game
+[28Apr2025 01:11:33.426] [Server thread/INFO] [Jade/]: Syncing config to ForeverVago (e902d1ba-9ad2-3171-9a2f-132316ea4a0a)
+[28Apr2025 01:11:35.672] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ForeverVago (18)
+[28Apr2025 01:11:35.673] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ForeverVago
+[28Apr2025 01:11:42.114] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player e902d1ba-9ad2-3171-9a2f-132316ea4a0a
+[28Apr2025 01:11:45.779] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player e902d1ba-9ad2-3171-9a2f-132316ea4a0a
+[28Apr2025 01:11:45.779] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ForeverVago (e902d1ba-9ad2-3171-9a2f-132316ea4a0a) successfully connected to voice chat
+[28Apr2025 01:11:54.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zNextLevel> Sos TIPO 8)))))))
+[28Apr2025 01:11:58.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ForeverVago> nex x sofi
+[28Apr2025 01:12:04.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zNextLevel> PFFFFFFFFFFFFFFFFFFF
+[28Apr2025 01:12:44.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zNextLevel has made the advancement [Diamonds!]
+[28Apr2025 01:12:44.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zNextLevel has made the advancement [Acquire Hardware]
+[28Apr2025 01:12:55.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zNextLevel> Jijo
+[28Apr2025 01:13:27.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ForeverVago> a cuanta distancia se escucha el vbc
+[28Apr2025 01:13:30.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ForeverVago> vc
+[28Apr2025 01:13:36.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zNextLevel> tenés que estar al ladoa
+[28Apr2025 01:13:40.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ForeverVago> taaa
+[28Apr2025 01:13:47.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ForeverVago> este nex XD
+[28Apr2025 01:14:03.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ForeverVago> ya esta gigalooteado
+[28Apr2025 01:17:39.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ForeverVago lost connection: Disconnected
+[28Apr2025 01:17:39.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ForeverVago left the game
+[28Apr2025 01:17:39.864] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ForeverVago
+[28Apr2025 01:19:34.517] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: zNextLevel lost connection: Disconnected
+[28Apr2025 01:19:34.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zNextLevel left the game
+[28Apr2025 01:19:34.518] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client zNextLevel
+[28Apr2025 01:20:02.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[28Apr2025 01:20:02.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28Apr2025 01:20:02.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28Apr2025 01:20:02.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28Apr2025 01:20:04.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[28Apr2025 01:20:04.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[28Apr2025 01:20:04.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/midnight_madness:the_underworld
+[28Apr2025 01:20:04.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[28Apr2025 01:20:04.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[28Apr2025 01:20:04.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28Apr2025 01:20:04.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_underworld): All chunks are saved
+[28Apr2025 01:20:04.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28Apr2025 01:20:04.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
