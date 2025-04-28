@@ -4,5 +4,23 @@
     "name": "zNextLevel",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "2f8191be-00cc-3549-ba1e-fcb6d8a0ae6e",
+    "name": "VagoPremium",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5873b053-b4ef-439b-9bf1-86041062e5dd",
+    "name": "MrSato",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "18b19d80-0cae-3a7d-8660-a57ca77efa27",
+    "name": "MrSatoj",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

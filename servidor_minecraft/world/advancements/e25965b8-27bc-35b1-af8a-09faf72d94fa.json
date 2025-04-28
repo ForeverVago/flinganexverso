@@ -107,6 +107,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-28 19:26:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2025-04-28 01:12:44 +0000"
@@ -169,6 +175,7 @@
   },
   "incendium:misc/soul_searcher": {
     "criteria": {
+      "incendium:infernal_dunes": "2025-04-28 19:34:07 +0000",
       "incendium:inverted_forest": "2025-04-28 18:47:33 +0000"
     },
     "done": false
@@ -237,6 +244,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-28 19:26:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
     "criteria": {
       "has_cobbled_deepslate": "2025-04-28 17:46:00 +0000"
@@ -279,15 +292,15 @@
     },
     "done": true
   },
-  "crystalcraft_unlimited_java:iron_stick_advancement": {
-    "criteria": {
-      "iron_stick_advancement_0": "2025-04-28 19:02:49 +0000"
-    },
-    "done": true
-  },
   "midnight_madness:face_the_fear": {
     "criteria": {
       "face_the_fear": "2025-04-28 18:42:41 +0000"
+    },
+    "done": true
+  },
+  "crystalcraft_unlimited_java:iron_stick_advancement": {
+    "criteria": {
+      "iron_stick_advancement_0": "2025-04-28 19:02:49 +0000"
     },
     "done": true
   },
@@ -469,6 +482,12 @@
   "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-04-28 17:46:00 +0000"
+    },
+    "done": true
+  },
+  "incendium:infernal_dunes/root": {
+    "criteria": {
+      "incendium:infernal_dunes": "2025-04-28 19:34:07 +0000"
     },
     "done": true
   },
@@ -918,7 +937,11 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2025-04-28 19:41:28 +0000",
       "minecraft:skeleton": "2025-04-28 17:44:03 +0000",
+      "minecraft:zombified_piglin": "2025-04-28 19:07:30 +0000",
+      "minecraft:wither_skeleton": "2025-04-28 19:16:46 +0000",
+      "minecraft:piglin": "2025-04-28 19:10:15 +0000",
       "minecraft:zombie": "2025-04-28 17:53:42 +0000"
     },
     "done": false
@@ -995,6 +1018,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-28 19:26:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2025-04-28 18:43:42 +0000"
@@ -1049,6 +1078,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-28 19:26:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2025-04-28 01:12:44 +0000"
@@ -1076,6 +1111,12 @@
   "advancednetherite:recipes/advancednetherite.tab/netherite_gold_ingot": {
     "criteria": {
       "has_TagKey[minecraft:item / forge:ingots/gold]": "2025-04-28 01:12:45 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crimson_mosquito": {
+    "criteria": {
+      "killed_by": "2025-04-28 19:31:40 +0000"
     },
     "done": true
   },
@@ -1133,9 +1174,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-04-28 19:41:31 +0000"
+    },
+    "done": true
+  },
   "dungeons_arise:find_small_blimp": {
     "criteria": {
       "location0": "2025-04-28 18:06:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-28 19:26:41 +0000"
     },
     "done": true
   },
@@ -1187,6 +1240,12 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-04-28 19:17:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2025-04-28 17:50:00 +0000"
@@ -1196,6 +1255,12 @@
   "packedup:recipes/packedup/copper_from_basic": {
     "criteria": {
       "recipe_condition": "2025-04-28 18:25:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-28 19:26:41 +0000"
     },
     "done": true
   },
@@ -1304,6 +1369,12 @@
   "spartanshields:recipes/spartanshields/diamond_basic_shield": {
     "criteria": {
       "has_diamond": "2025-04-28 01:12:44 +0000"
+    },
+    "done": true
+  },
+  "crystalcraft_unlimited_java:is_this_a_joke_to_you": {
+    "criteria": {
+      "is_this_a_joke_to_you_0": "2025-04-28 19:42:49 +0000"
     },
     "done": true
   },
@@ -1487,6 +1558,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-04-28 19:41:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-28 19:26:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_sword": "2025-04-28 17:41:33 +0000"
@@ -1556,6 +1639,12 @@
   "infernalexp:recipes/combat/glowsilk_bow": {
     "criteria": {
       "has_glowsilk": "2025-04-28 01:09:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-04-28 19:41:31 +0000"
     },
     "done": true
   },
@@ -1650,6 +1739,12 @@
       "in_outpost_nether_brick": "2025-04-28 18:58:12 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-28 19:26:41 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
@@ -1796,6 +1891,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-28 19:26:41 +0000"
+    },
+    "done": true
+  },
   "dungeons_arise:wda_root": {
     "criteria": {
       "WDA": "2025-04-28 01:09:29 +0000"
@@ -1838,6 +1939,12 @@
     },
     "done": true
   },
+  "crystalcraft_unlimited_java:the_strongest_stick": {
+    "criteria": {
+      "the_strongest_stick_0": "2025-04-28 19:14:53 +0000"
+    },
+    "done": true
+  },
   "infernalexp:recipes/redstone/polished_basalt_pressure_plate": {
     "criteria": {
       "has_polished_basalt": "2025-04-28 01:09:29 +0000"
@@ -1847,6 +1954,7 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2025-04-28 17:56:59 +0000",
+      "minecraft:soul_sand_valley": "2025-04-28 19:39:21 +0000",
       "minecraft:warped_forest": "2025-04-28 18:48:43 +0000"
     },
     "done": false
