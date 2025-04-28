@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "e25965b8-27bc-35b1-af8a-09faf72d94fa",
+    "name": "zNextLevel",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
