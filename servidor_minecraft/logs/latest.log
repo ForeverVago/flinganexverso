@@ -963,3 +963,16 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [28Apr2025 18:48:17.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zNextLevel> que sale en el nether que está re op
 [28Apr2025 18:48:19.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zNextLevel> mejor que el diamantew
 [28Apr2025 18:48:48.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zNextLevel> encima es re abundante
+[28Apr2025 18:51:57.878] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event:{distance:5.406628f,game_event:"minecraft:step",pos:[665.0635295983229d,-28.0d,-328.45051504385293d],source:[I;-1248956662,754208087,-1868723166,-1831500066]},event_delay:2,selector:{tick:-1L}}]; No key source in MapLike[{event:{distance:5.406628f,game_event:"minecraft:step",pos:[665.0635295983229d,-28.0d,-328.45051504385293d],source:[I;-1248956662,754208087,-1868723166,-1831500066]},event_delay:2,selector:{tick:-1L}}]
+[28Apr2025 18:51:57.879] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 18:51:57.879] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 18:51:57.880] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 18:56:17.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VagoPremium> ufffff
+[28Apr2025 18:56:18.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VagoPremium> XDDD
+[28Apr2025 18:56:23.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VagoPremium> amigo
+[28Apr2025 18:56:30.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VagoPremium> de la nada me da input lag de 1 eon
+[28Apr2025 18:56:34.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VagoPremium> voy a pasar vid
+[28Apr2025 18:56:43.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VagoPremium> no creo que el cpu esté al 100
+[28Apr2025 18:56:45.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VagoPremium> imaginate era eso
+[28Apr2025 18:57:02.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VagoPremium> no te la vas a creer
+[28Apr2025 18:58:27.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VagoPremium has made the advancement [Sweet Dreams]
