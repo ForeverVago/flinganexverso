@@ -843,3 +843,26 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [28Apr2025 17:29:37.645] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
 [28Apr2025 17:29:37.646] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
 [28Apr2025 17:29:37.660] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[28Apr2025 17:39:50.710] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4ccb3787
+[28Apr2025 17:39:50.734] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zNextLevel[/100.73.70.44:51792] logged in with entity id 298 at (36.301246398672355, 70.0, 129.71781149055485)
+[28Apr2025 17:39:50.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zNextLevel joined the game
+[28Apr2025 17:39:50.940] [Server thread/INFO] [Jade/]: Syncing config to zNextLevel (e25965b8-27bc-35b1-af8a-09faf72d94fa)
+[28Apr2025 17:39:51.788] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of zNextLevel (18)
+[28Apr2025 17:39:51.791] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to zNextLevel
+[28Apr2025 17:39:54.974] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player e25965b8-27bc-35b1-af8a-09faf72d94fa
+[28Apr2025 17:39:55.976] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player e25965b8-27bc-35b1-af8a-09faf72d94fa
+[28Apr2025 17:39:55.981] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player zNextLevel (e25965b8-27bc-35b1-af8a-09faf72d94fa) successfully connected to voice chat
+[28Apr2025 17:40:05.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zNextLevel has made the advancement [Sweet Dreams]
+[28Apr2025 17:40:41.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zNextLevel has made the advancement [Stone Age]
+[28Apr2025 17:40:50.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zNextLevel has made the advancement [Getting an Upgrade]
+[28Apr2025 17:43:16.160] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Apr2025 17:43:16.162] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Apr2025 17:44:02.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zNextLevel has made the advancement [Not Today, Thank You]
+[28Apr2025 17:44:03.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zNextLevel has made the advancement [Monster Hunter]
+[28Apr2025 17:46:49.350] [Worker-Main-1/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event:{distance:5.406628f,game_event:"minecraft:step",pos:[665.0635295983229d,-28.0d,-328.45051504385293d],source:[I;-1248956662,754208087,-1868723166,-1831500066]},event_delay:2,selector:{tick:-1L}}]; No key source in MapLike[{event:{distance:5.406628f,game_event:"minecraft:step",pos:[665.0635295983229d,-28.0d,-328.45051504385293d],source:[I;-1248956662,754208087,-1868723166,-1831500066]},event_delay:2,selector:{tick:-1L}}]
+[28Apr2025 17:46:49.351] [Worker-Main-1/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 17:46:49.351] [Worker-Main-1/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 17:46:49.351] [Worker-Main-1/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key range in MapLike[{event_delay:0,selector:{tick:-1L}}]; No key source in MapLike[{event_delay:0,selector:{tick:-1L}}]
+[28Apr2025 17:47:35.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] nex x sofi
+[28Apr2025 17:47:39.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <zNextLevel> Gl
+[28Apr2025 17:47:55.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zNextLevel has made the advancement [Ice Bucket Challenge]
