@@ -215,6 +215,12 @@
     },
     "done": true
   },
+  "justhammers:recipes/justhammers.justhammers_tab/gold_reinforced_hammer": {
+    "criteria": {
+      "has_material": "2025-04-29 21:57:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2025-04-28 17:40:50 +0000"
@@ -416,6 +422,12 @@
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-04-28 20:20:49 +0000"
+    },
+    "done": true
+  },
+  "justhammers:recipes/justhammers.justhammers_tab/gold_impact_hammer": {
+    "criteria": {
+      "has_material": "2025-04-29 21:57:47 +0000"
     },
     "done": true
   },
@@ -669,6 +681,7 @@
     "criteria": {
       "minecraft:blaze": "2025-04-28 19:41:28 +0000",
       "minecraft:skeleton": "2025-04-28 17:44:03 +0000",
+      "minecraft:hoglin": "2025-04-29 21:55:17 +0000",
       "minecraft:magma_cube": "2025-04-28 21:16:56 +0000",
       "minecraft:spider": "2025-04-28 20:22:49 +0000",
       "minecraft:creeper": "2025-04-28 20:32:32 +0000",
@@ -676,6 +689,7 @@
       "minecraft:wither_skeleton": "2025-04-28 19:16:46 +0000",
       "minecraft:piglin": "2025-04-28 19:10:15 +0000",
       "minecraft:enderman": "2025-04-28 20:55:05 +0000",
+      "minecraft:vex": "2025-04-29 21:52:52 +0000",
       "minecraft:zombie": "2025-04-28 17:53:42 +0000"
     },
     "done": false
@@ -815,6 +829,12 @@
   "alexsmobs:alexsmobs/crimson_mosquito": {
     "criteria": {
       "killed_by": "2025-04-28 19:31:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-04-29 21:57:47 +0000"
     },
     "done": true
   },
@@ -1257,7 +1277,9 @@
       "minecraft:dark_forest": "2025-04-28 20:35:25 +0000",
       "minecraft:river": "2025-04-28 17:55:59 +0000",
       "minecraft:swamp": "2025-04-28 20:33:36 +0000",
+      "minecraft:cold_ocean": "2025-04-29 21:58:09 +0000",
       "minecraft:forest": "2025-04-28 20:33:20 +0000",
+      "minecraft:lush_caves": "2025-04-29 22:03:36 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-04-28 20:34:48 +0000",
       "minecraft:meadow": "2025-04-28 17:49:32 +0000",
       "minecraft:plains": "2025-04-28 01:09:30 +0000"
@@ -2268,6 +2290,12 @@
     },
     "done": true
   },
+  "incendium:quartz_flats/torte/root": {
+    "criteria": {
+      "requirement": "2025-04-29 21:55:03 +0000"
+    },
+    "done": true
+  },
   "naturescompass:natures_compass_log": {
     "criteria": {
       "has_recipe": "2025-04-28 01:09:29 +0000"
@@ -2403,6 +2431,12 @@
   "minecraft:recipes/redstone/warped_button": {
     "criteria": {
       "has_planks": "2025-04-28 20:15:05 +0000"
+    },
+    "done": true
+  },
+  "justhammers:recipes/justhammers.justhammers_tab/gold_destructor_hammer": {
+    "criteria": {
+      "has_material": "2025-04-29 21:57:47 +0000"
     },
     "done": true
   },
@@ -2869,6 +2903,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-04-29 21:56:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2025-04-28 18:43:42 +0000"
@@ -2908,6 +2948,18 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2025-04-28 20:20:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-04-29 22:00:40 +0000"
+    },
+    "done": true
+  },
+  "justhammers:recipes/justhammers.justhammers_tab/gold_reinforced_impact_hammer": {
+    "criteria": {
+      "has_material": "2025-04-29 21:57:47 +0000"
     },
     "done": true
   },
